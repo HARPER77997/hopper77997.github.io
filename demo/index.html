@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix 仿作練習</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+           <img src="./images/logo.png" alt="我的Logo" class="logo"><ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#top-10">熱門影片</a></li>
+                <li><a href="#my-list">口袋名單</a></li>
+                <li><a href="#my-list">暖心專區</a></li>            
+            </ul>
+        </div>
+        <div class="nav-right">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bell"></i>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="User" class="avatar">
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">奇怪物語</h1>
+            <p class="hero-desc">
+                主角被迫切斷所有審美與堅持，變成對客戶唯命是從的工具人。檔案終於停止運作，但他照鏡子時發現，自己的眼神已和那張遺照一樣空洞：人活著，但靈魂已經被存檔... ...。</p>
+            <div class="hero-buttons">
+                <button class="btn btn-play"><i class="fas fa-play"></i> 播放</button>
+                <button class="btn btn-info"><i class="fas fa-info-circle"></i> 更多資訊</button>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </header>
+
+    <section class="row" id="top-10">
+        <h2>榮登台藝 Top 7 節目</h2>
+        <div class="row-posters top-10-row">
+            
+            <div class="rank-card">
+                <span class="rank-number">1</span>
+                <div class="rank-content">
+                    <img src="./images/top1.jpg" class="poster rank-poster">
+                    <div class="card-info">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rank-card">
+                <span class="rank-number">2</span>
+                <div class="rank-content">
+                    <img src="./images/top2.jpg" class="poster rank-poster">
+                    <div class="card-info">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rank-card">
+                <span class="rank-number">3</span>
+                <div class="rank-content">
+                    <img src="./images/top3.jpg" class="poster rank-poster">
+                    <div class="card-info">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rank-card">
+                <span class="rank-number">4</span>
+                <div class="rank-content">
+                    <img src="./images/top4.jpg" class="poster rank-poster">
+                    <div class="card-info"></div>
+                </div>
+            </div>
+            
+            <div class="rank-card">
+                <span class="rank-number">5</span>
+                <div class="rank-content">
+                    <img src="./images/top5.jpg" class="poster rank-poster">
+                    <class="card-info"></div>
+            </div>
+
+            <div class="rank-card">
+                <span class="rank-number">6</span>
+                <div class="rank-content">
+                    <img src="./images/top6.jpg" class="poster rank-poster">
+                    <class="card-info"></div>
+            </div>
+
+            <div class="rank-card">
+                <span class="rank-number">7</span>
+                <div class="rank-content">
+                    <img src="./images/top7.jpg" class="poster rank-poster">
+                    <div class="card-info"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="row" id="my-list">
+        <h2>我的口袋名單</h2>
+        <div class="poster-container">
+            <div class="slider-arrow left"><i class="fas fa-chevron-left"></i></div>
+            <div class="row-posters">
+                <div class="card"><img src="./images/poster1.jpg" class="card-img">
+                    <div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button><button class="btn-round"><i class="fas fa-thumbs-up"></i></button></div><div class="card-meta"><span class="match">98% 適合你</span><span class="age">16+</span></div><div class="card-tags">懸疑 ・ 驚悚</div></div>
+                </div>
+                <div class="card"><img src="./images/poster2.jpg" class="card-img">
+                    <div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button><button class="btn-round"><i class="fas fa-thumbs-up"></i></button></div><div class="card-meta"><span class="match">95% 適合你</span><span class="age">18+</span></div><div class="card-tags">生存 ・ 劇情</div></div>
+                </div>
+                <div class="card"><img src="./images/poster3.jpg" class="card-img">
+                    <div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button><button class="btn-round"><i class="fas fa-thumbs-up"></i></button></div><div class="card-meta"><span class="match">90% 適合你</span><span class="age">13+</span></div><div class="card-tags">動作 ・ 英雄</div></div>
+                </div>
+                <div class="card"><img src="./images/poster4.jpg" class="card-img">
+                    <div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button><button class="btn-round"><i class="fas fa-thumbs-up"></i></button></div><div class="card-meta"><span class="match">85% 適合你</span><span class="age">0+</span></div><div class="card-tags">喜劇 ・ 動畫</div></div>
+                </div>
+                <div class="card"><img src="./images/poster5.jpg" class="card-img">
+                    <div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button><button class="btn-round"><i class="fas fa-thumbs-up"></i></button></div><div class="card-meta"><span class="match">80% 適合你</span><span class="age">12+</span></div><div class="card-tags">紀錄片</div></div>
+                </div>
+                <div class="card"><img src="./images/poster6.jpg" class="card-img"><div class="card-info"><div class="card-buttons"><button class="btn-round white"><i class="fas fa-play"></i></button><button class="btn-round"><i class="fas fa-plus"></i></button></div><div class="card-meta"><span class="match">98% 適合你</span><span class="age">16+</span></div><div class="card-tags">懸疑</div></div></div>
+            </div>
+            <div class="slider-arrow right"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        </section>
+    <section class="row" style="margin-top: 80px;"> 
+        <h2>暖心專區</h2>
+    <div class="row-posters" id="spoiler-row">
+        
+        <div class="toy-card">
+            <img src="./images/pic1.jpg" alt="我的照片1" class="toy-card-image">            
+                <div class="toy-card-content">
+                <h2 class="toy-card-title">小丸子與爺爺</h2>
+                <p class="toy-card-text">
+                    為了品嚐傳說中的「夢幻紅寶石布丁」，小丸子與爺爺友藏組成了秘密美食探險隊！祖孫倆換上最體面的服裝，瞞著媽媽勇闖高級喫茶店!!! </div>
+        </div>
+
+        <div class="toy-card">
+            <img src="./images/pic2.jpg" alt="我的照片1" class="toy-card-image"> 
+                <div class="toy-card-content">
+                <h2 class="toy-card-title">秘密甜心派</h2>
+                <p class="toy-card-text">
+                    媽媽最近看起來很累，生日快到了卻說不想慶祝。姊姊決定要製作一個她在繪本裡看過的、能讓人幸福的「秘密甜心派」來拯救媽媽的笑容。
+                </p>
+            </div>
+        </div>
+
+        <div class="toy-card">
+            <img src="./images/pic3.jpg" alt="我的照片1" class="toy-card-image">            
+            <div class="toy-card-content">
+                <h2 class="toy-card-title">凸鏡效應</h2>
+                <p class="toy-card-text">
+                    李維住在都市高樓層的豪華公寓裡，他的唯一樂趣，是觀察窗外對街角那面巨大的道路凸面鏡。鏡子反射著十字路口的人生百態，一切都被廣角鏡頭拉伸得滑稽又怪異... ...。</p>
+            </div>
+        </div>
+
+        <div class="toy-card">
+           <img src="./images/pic4.jpg" alt="我的照片1" class="toy-card-image">            
+           <div class="toy-card-content">
+                <h2 class="toy-card-title">記憶拼圖</h2>
+                <p class="toy-card-text">
+                    一位患有短期記憶喪失症的妙齡少女，僅靠著一本泛黃的美食筆記本，每天走訪不同的餐廳。她試圖透過味蕾的刺激，找回腦海中那個模糊的身影，拼湊出一段被遺忘的關鍵往事。</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+
+    <footer class="footer">
+        <div class="footer-social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">口述影像</a></li>
+                <li><a href="#">投資人關係</a></li>
+                <li><a href="#">法律聲明</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">說明中心</a></li>
+                <li><a href="#">工作機會</a></li>
+                <li><a href="#">Cookie 設定</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">禮卡</a></li>
+                <li><a href="#">使用條款</a></li>
+                <li><a href="#">企業資訊</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">媒體中心</a></li>
+                <li><a href="#">隱私權</a></li>
+                <li><a href="#">聯絡我們</a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">© 1997-2025 Fatflix, Inc.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
